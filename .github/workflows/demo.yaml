@@ -31,4 +31,5 @@ jobs:
   artifact:
     runs-on: ubuntu-20.04
     steps:
-      - run: echo “hello ahmed” > hello.txt
+      - name: Create Artifact
+        run: echo "hello ahmed" > hello.txt
